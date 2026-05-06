@@ -1,0 +1,19 @@
+# Editors
+*.swp
+*~
+
+# VS Code
+.vscode/
+
+# Build folders
+**/build*/
+
+# Generated binaries
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Logs
+*.log
