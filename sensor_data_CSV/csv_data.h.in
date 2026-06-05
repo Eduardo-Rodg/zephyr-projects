@@ -1,0 +1,7 @@
+#ifndef CSV_DATA_H
+#define CSV_DATA_H
+
+static const char csv_data[] =
+"@CSV_CONTENT@";
+
+#endif

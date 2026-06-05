@@ -1,0 +1,18 @@
+/ {
+	zephyr,user {
+		io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>,
+			<&adc 4>, <&adc 5>, <&adc 6>, <&adc 7>;
+	};
+
+	ext_led: ext_led {
+		gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
+	};
+};
+
+&wdt31 {
+	status = "okay";
+};
+
+dmic_dev: &pdm20 {
+	status = "okay";
+};
