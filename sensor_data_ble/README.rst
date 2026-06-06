@@ -1,6 +1,6 @@
-.. _peripheral_lbs:
+.. _basado en "peripheral_lbs":
 
-Bluetooth: Peripheral LBS
+Bluetooth: Leer .CSV creando .h desde Cmake 
 #########################
 
 .. contents::

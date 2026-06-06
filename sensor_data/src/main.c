@@ -4,7 +4,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "datos.h"   // <-- aquí entra tu "sensor simulado"
+#include "datos.h"   // <-- aquí entra "sensor simulado"
 
 #define MAX_LINEA 16
 
