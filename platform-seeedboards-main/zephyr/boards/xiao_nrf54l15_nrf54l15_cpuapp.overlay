@@ -1,0 +1,35 @@
+/ {
+	zephyr,user {
+		io-channels = <&adc 0>, <&adc 1>, <&adc 2>, <&adc 3>,
+			<&adc 4>, <&adc 5>, <&adc 6>, <&adc 7>;
+	};
+};
+
+&wdt31 {
+	status = "okay";
+};
+
+dmic_dev: &pdm20 {
+    status = "okay";
+};
+
+/ {
+    chosen {
+        zephyr,flash-controller = &flash_controller;
+    };
+};
+
+&mx25r64 {
+    status = "okay";
+};
+
+&flash0 {
+    partitions {
+        compatible = "fixed-partitions";
+
+        storage_partition: partition@c0000 {
+            label = "storage";
+            reg = <0x000c0000 0x00040000>;
+        };
+    };
+};

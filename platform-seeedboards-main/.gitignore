@@ -1,0 +1,6 @@
+*.pyc
+**/.pio
+**/.vscode
+**/.venv
+**/.pio-ci.platformio.ini
+.pio-ci-logs/
